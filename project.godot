@@ -1,0 +1,31 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=3
+
+[application]
+
+config/name="MeleeVR"
+run/main_scene="res://main.tscn"
+config/icon="res://icon.png"
+
+[gdnative]
+
+singletons=[ "res://addons/godot-oculus/godot_oculus.gdnlib", "res://addons/godot-openvr/godot_openvr.gdnlib" ]
+
+[input]
+
+move_left=[  ]
+move_right=[  ]
+move_forward=[  ]
+move_back=[  ]
+crouch=[  ]
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"
