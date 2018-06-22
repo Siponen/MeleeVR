@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/katana_sheathe_only.obj-5c5ee5d4c6f6499dec9f2cc1e662ac1b.mesh"
+
+[deps]
+
+files=[ "res://.import/katana_sheathe_only.obj-5c5ee5d4c6f6499dec9f2cc1e662ac1b.mesh" ]
+
+source_file="res://meshes/katana_sheathe_only.obj"
+source_md5="3518a11c23be971cb9a1b82416f43162"
+
+dest_files=[ "res://.import/katana_sheathe_only.obj-5c5ee5d4c6f6499dec9f2cc1e662ac1b.mesh", "res://.import/katana_sheathe_only.obj-5c5ee5d4c6f6499dec9f2cc1e662ac1b.mesh" ]
+dest_md5="f0d39d12ba9577eb395c53cbdad65663"
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

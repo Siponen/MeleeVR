@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/katana_sword_only.obj-fe97fcbd8184c1be09b56260d003fb14.mesh"
+
+[deps]
+
+files=[ "res://.import/katana_sword_only.obj-fe97fcbd8184c1be09b56260d003fb14.mesh" ]
+
+source_file="res://meshes/katana_sword_only.obj"
+source_md5="fb73d500f4da42a91e4a92823d4b1fce"
+
+dest_files=[ "res://.import/katana_sword_only.obj-fe97fcbd8184c1be09b56260d003fb14.mesh", "res://.import/katana_sword_only.obj-fe97fcbd8184c1be09b56260d003fb14.mesh" ]
+dest_md5="28f1f27bfafbbd85ee0a706438d1c009"
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

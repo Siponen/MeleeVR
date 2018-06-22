@@ -9,6 +9,8 @@ script/source = "extends ARVRController
 signal controller_activated(controller)
 
 onready var ws = ARVRServer.world_scale
+var isLeftBumperPressed = false
+var isLeftTriggerPressed = false
 
 func _ready():
 	# hide to begin with
@@ -29,9 +31,13 @@ func _process(delta):
 	elif !visible:
 		# make it visible
 		visible = true
-		emit_signal(\"controller_activated\", self)"
+		emit_signal(\"controller_activated\", self)
+		
+func _physics_process(delta):
+	
+	pass"
 
-[node name="oculus_left_touch_controller" type="ARVRController" index="0"]
+[node name="oculus_left_touch_controller" type="ARVRController"]
 
 controller_id = 1
 rumble = 0.0

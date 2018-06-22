@@ -31,7 +31,7 @@ func _process(delta):
 		visible = true
 		emit_signal(\"controller_activated\", self)"
 
-[node name="oculus_right_touch_controller" type="ARVRController" index="0"]
+[node name="oculus_right_touch_controller" type="ARVRController"]
 
 controller_id = 2
 rumble = 0.0
